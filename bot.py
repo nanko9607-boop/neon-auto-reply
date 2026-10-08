@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
-TOKEN = os.getenv("8505599474:AAFusfhmRuFmsd6n_CDLaWr4eCOLb5OSP6k")
+TOKEN =os.getenv("BOT_TOKEN")
 
 async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message:
